@@ -9,7 +9,7 @@ import styles from "./styles.module.css";
 const features = [
   {
     title: "Find reference land position",
-    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    imageUrl: "img/refPic.png",
     description: (
       <>
         Find the reference land position to predict land price in the future.
@@ -27,7 +27,7 @@ const features = [
   },
   {
     title: "Predict land price from reference land with best model",
-    imageUrl: "img/undraw_docusaurus_tree.svg",
+    imageUrl: "img/knnLand.png",
     description: (
       <>
         Predict the land value in Chatuchak district based on nearest reference land.
