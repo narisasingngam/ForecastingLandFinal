@@ -2,13 +2,13 @@
 module.exports = {
   title: 'Forecasting land price',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://narisasingngam.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/house.gif',
+  organizationName: 'narisasingngam', // Usually your GitHub org/user name.
+  projectName: 'ForecastingLandFinal', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Forecasting land price',
