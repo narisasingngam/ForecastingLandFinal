@@ -1,0 +1,13 @@
+.header-input{
+    background: 0;
+    border: 0;
+    outline: none;
+    width: 15vw;
+    max-width: 400px;
+    font-size: 1.2em;
+}
+
+.container-header{
+    margin: 10px;
+    justify-content: center;
+}
