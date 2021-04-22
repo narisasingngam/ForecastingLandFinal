@@ -26,7 +26,7 @@ module.exports = {
         {to: 'reflot', label: 'Reference land', position: 'left'},
         {to: 'parcel', label: 'Parcel land lot', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/narisasingngam/ForecastingLandFinal',
           label: 'GitHub',
           position: 'right',
         },

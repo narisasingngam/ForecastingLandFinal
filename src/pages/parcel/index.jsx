@@ -19,7 +19,7 @@ const ParcelLand = () => {
 
   const onEachLand = (land, layer) => {
     const landValue = land.properties.y_pred
-    layer.bindPopup(`<h4>${landValue}</h4>`);
+    layer.bindPopup(`<h4>${landValue} Baht</h4>`);
     const colorByRange = landValueRange(landValue);
     layer.options.fillColor = colorByRange;
     layer.options.color = colorByRange;

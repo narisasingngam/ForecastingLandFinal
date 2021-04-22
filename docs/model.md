@@ -1,6 +1,5 @@
 ---
 title: Machine learning model
-slug: /models
 ---
 
 We research a new solution for calculating land price by using a machine learning model instead of assigning a specialist. Machine learning combines computer science and statistical analysis to enhance the prediction. High-value predictions can be obtained within human-computer interaction. It helps to predict uncertain situations with the data.

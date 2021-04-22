@@ -1,5 +1,5 @@
 ---
-title: Forcasting Land Price
+title: Forcasting Land Price Introduction
 slug: /
 ---
 
