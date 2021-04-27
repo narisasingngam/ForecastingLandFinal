@@ -19,7 +19,8 @@ const ReferenceLand = () => {
 
   const onEachLand = (land, layer) => {
     const landValue = land.properties.LAND_VALUE;
-    layer.bindPopup(`<h4>${landValue} Baht</h4>`);
+    const landID = land.properties.CHANOD_NO;
+    layer.bindPopup(`<div><h4>Land Price: ${landValue} Baht</h4><br/><h4>${landID === 0 ? '': 'Land ID: '+landID}</h4></div>`);
     const colorByRange = landValueRange(landValue);
     layer.options.fillColor = colorByRange;
     layer.options.color = colorByRange;
