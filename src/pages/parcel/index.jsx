@@ -18,10 +18,11 @@ const ParcelLand = () => {
   } = useFindLand(parcel.features);
 
   const onEachLand = (land, layer) => {
-    const landValue = land.properties.y_pred
+    const landValuePred = land.properties.y_pred
+    const landValueOri = land.properties.yTest
     const landID = land.properties.CHANOD_NO;
-    layer.bindPopup(`<div><h4>Land Price: ${landValue} Baht</h4><br/><h4>${landID === 0 ? '': 'Land ID: '+landID}</h4></div>`);
-    const colorByRange = landValueRange(landValue);
+    layer.bindPopup(`<div><h4>Predicted Land Price: ${landValuePred.toFixed(2)} Baht</h4><br/><h4>Origianl Land Price: ${landValueOri} Baht</h4><br/><h4>${landID === 0 ? '': 'Land ID: '+landID}</h4></div>`);
+    const colorByRange = landValueRange(landValuePred);
     layer.options.fillColor = colorByRange;
     layer.options.color = colorByRange;
   };
